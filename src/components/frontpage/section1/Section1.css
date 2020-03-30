@@ -1,0 +1,42 @@
+.frontpage-section-1 {
+  padding-top: 100px;
+  padding-bottom: 160px;
+}
+.frontpage-section-1 h1 {
+  font-family: coolvetica;
+  font-size: 80px;
+  line-height: 4.7rem;
+  margin-bottom: 50px;
+  text-shadow: var(--text-shadow);
+  color: black;
+}
+.frontpage-section-1 textarea {
+  resize: none;
+}
+.frontpage-section-1 p,
+.frontpage-section-1 h1 {
+  max-width: 500px;
+}
+.frontpage-section-1 p {
+  margin: 20px 0px;
+}
+.frontpage-section-1 button {
+  margin-right: 20px;
+}
+.frontpage-section-1 footer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.frontpage-section-1 form .btn {
+  background: white;
+  color: var(--primary);
+}
+.frontpage-section-1 form .btn:hover {
+  color: var(--primary-light);
+}
+.frontpage-section-1 form .btn:active,
+.frontpage-section-1 form .btn:focus {
+  color: var(--primary-light) !important;
+  background: white !important;
+}

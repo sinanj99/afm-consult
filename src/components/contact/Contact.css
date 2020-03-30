@@ -1,0 +1,22 @@
+.modal-content {
+  background: var(--secondary);
+  border-radius: 20px;
+  padding: 20px;
+}
+.modal-body,
+.modal-header,
+.modal-footer {
+  border: none;
+}
+label {
+  color: var(--text-color-light);
+}
+.modal-title {
+  color: var(--text-color-dark);
+}
+span {
+  color: var(--text-color-dark);
+}
+form .btn {
+  margin-top: 20px;
+}

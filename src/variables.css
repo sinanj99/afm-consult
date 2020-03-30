@@ -1,0 +1,17 @@
+:root {
+  --primary: #a9cbff;
+  --primary-light: #bcd7ff;
+  --secondary: #f1f4ff;
+  --success: #14dc60;
+  --failure: #ff9c9c;
+  --grey-text: rgb(205, 205, 205);
+  --box-shadow: 0px 15px 30px rgba(137, 137, 137, 0.2);
+  --box-shadow-hover: 0px 20px 35px rgba(88, 88, 88, 0.3);
+  --text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  --text-color-light: #b6c2d4;
+  --text-color-dark: #8797ad;
+  --text-color-dark-hover: #697385;
+  --box-shadow-2: 0px 5px 10px rgba(144, 144, 144, 0.072);
+  --navbar-color: #f8f9fa;
+  --dropdown-item-hover: #f6faff;
+}

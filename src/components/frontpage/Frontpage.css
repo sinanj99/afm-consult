@@ -1,0 +1,28 @@
+/* CSS used by all sections in respective component */
+@font-face {
+  font-family: "coolvetica";
+  src: url("../../assets/fonts/coolvetica.ttf"); /* IE9 Compat Modes */
+}
+.frontpage {
+  background: var(--secondary);
+}
+.frontpage p {
+  color: var(--text-color-light);
+  line-height: 35px;
+}
+@media (max-width: 477px) {
+  .frontpage-section-1 h1 {
+    font-size: 60px;
+    line-height: 3.8rem;
+    margin-bottom: 20px;
+  }
+  .frontpage-section-1 button {
+    margin-right: 10px;
+  }
+  .frontpage-section-1 p {
+    margin: 10px 0px;
+  }
+  .frontpage-section-2 {
+    padding: 80px 20px;
+  }
+}
